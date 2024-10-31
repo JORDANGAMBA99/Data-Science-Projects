@@ -1,24 +1,16 @@
-## Objectives of the AI Trading bot
-### 1. Data Collection and Analysis
-- Gather real-time market data from multiple sources
-- Collect and process economic news and events
-- Analyze social media sentiment related to trading assets
+## AI Trading bot
+### Purpose
+- In this project I wanted to create an AI trading bot that is ssensitive to real time events and news and allo us to interpret news events for us to make buy or sell orders in our tarades
 
-### 2. Pattern Recognition
+I broke down this project into 3 stages:
+#### Data collection and Analysis
+- Here I used langchain to load data from our web pages such as Bloomberg,Forbes in order to collect data that may affect our currency pairs
 
-- Identify complex market patterns using machine learning algorithms
-- Recognize potential trend reversals and breakouts
+#### Risk Management
+- I created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. I have places a stop loss of 10 pips and trading profit of 20 pips in our bot
 
-### 3. Risk Management
-- Implement dynamic position sizing based on market volatility
-- Set and adjust stop-loss and take-profit levels automatically
-
-### 4. Trade Execution
-- Execute trades automatically based on AI-driven signals
-- Optimize entry and exit points for trades
+#### Trade execution
+- Our bot will be able to automatically inteprete news from our desired data source and execute buy or sell orders.
 
 
-### 5. Performance Monitoring
-- Track and analyze bot performance metrics
-- Generate detailed reports on trading activities and outcomes
 
