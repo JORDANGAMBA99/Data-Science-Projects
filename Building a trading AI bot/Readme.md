@@ -7,6 +7,7 @@ I broke down this project into stages:
 - Here I used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs.This may not be ideal because the more reliable sources ar Bloomberg and Forbes.However,both of these services are paid subscription which in order to access their API you need to pay
 - We collected our training data from the following websites:
 1. [Investing.com](https://www.investing.com/)
+   
 2. [Forex Factory](https://www.forexfactory.com/)
 
 #### LLM MODEL
@@ -28,8 +29,7 @@ It can also monitor portfolio exposure and recommend rebalancing actions to mini
 - Users can ask questions like, "What is the impact of inflation on tech stocks?" or "Which sectors are showing bullish momentum?" and the LangChain model can provide relevant insights by analyzing historical data, news, or predefined metrics.
 
 #### Trade execution
-- Our bot will be able to automatically inteprete news from our desired data source and execute buy or sell orders.
-- We used the [mt5plaform](https://www.mql5.com/en/docs/python_metatrader5)
+- We used the [mt5plaform](https://www.mql5.com/en/docs/python_metatrader5) inorder to get the python code to execute trades automatically from the metatrader5 trading platform.
 
 
 
