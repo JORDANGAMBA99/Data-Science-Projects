@@ -7,9 +7,10 @@ I broke down this project into stages:
 - Here I used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs.This may not be ideal because the more reliable sources ar Bloomberg and Forbes.However,both of these services are paid subscription which in order to access their API you need to pay
 - We collected our training data from the following websites:
 1. [Investing.com](https://www.investing.com/)
-
    
-3. [Forex Factory](https://www.forexfactory.com/)
+![Investing.com_Screenshot](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/3039c4cdf00f3ac25676b78c8eadb312718fce9d/Building%20a%20trading%20AI%20bot/Forex%20Screenshot.jpg)
+   
+2. [Forex Factory](https://www.forexfactory.com/)
 
 #### LLM MODEL
 - I created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. We a Langchain agent to perfrom the following:
