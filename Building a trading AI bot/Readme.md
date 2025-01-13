@@ -9,8 +9,14 @@ I broke down this project into stages:
 1. [Investing.com](https://www.investing.com/)
    
 ![Investing.com_Screenshot](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/3039c4cdf00f3ac25676b78c8eadb312718fce9d/Building%20a%20trading%20AI%20bot/Forex%20Screenshot.jpg)
+
+### Select the articles highlighted in yellow in the websites and copy paste them to the LLM Model
    
 2. [Forex Factory](https://www.forexfactory.com/)
+
+![Forex Factory](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/a3d23bc30a2e75e4f5264b42f5a50422ef728bc5/Building%20a%20trading%20AI%20bot/Forex%20Factory%20Screenshot.jpg)
+
+### Select the articles highlighted in yellow in the websites and copy paste them to the LLM Model
 
 #### LLM MODEL
 - I created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. We a Langchain agent to perfrom the following:
