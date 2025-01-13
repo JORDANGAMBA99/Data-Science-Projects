@@ -19,7 +19,7 @@ I broke down this project into stages:
 ### Select the articles highlighted in yellow in the websites and copy paste them to the LLM Model
 
 #### LLM MODEL
-- I created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. We a Langchain agent to perfrom the following:
+- I created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. We used Langchain agent to perfrom the following:
 
 ##### 1. Automated Trading Signals
 - LangChain can integrate with real-time market data feeds, parse complex data patterns, and generate actionable insights such as buy/sell signals.
@@ -35,6 +35,9 @@ It can also monitor portfolio exposure and recommend rebalancing actions to mini
 
 ##### 4 . Natural Language Queries
 - Users can ask questions like, "What is the impact of inflation on tech stocks?" or "Which sectors are showing bullish momentum?" and the LangChain model can provide relevant insights by analyzing historical data, news, or predefined metrics.
+![System_prompt](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/b1a4dc13c445eea8c9490cd40fea7ab43407ba45/Building%20a%20trading%20AI%20bot/System%20prompt.jpg)
+
+[langchain_code](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/1d2422d4df0cdca282d4c39e7077b3f29a11307a/Building%20a%20trading%20AI%20bot/langchain%20beta%20-%20Copy%20for%20github.ipynb)
 
 #### Trade execution
 - We used the [mt5plaform](https://www.mql5.com/en/docs/python_metatrader5) inorder to get the python code to execute trades automatically from the metatrader5 trading platform.
