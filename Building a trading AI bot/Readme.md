@@ -29,6 +29,8 @@ By chaining multiple steps (like pre-processing data, generating trading signals
 - Traders can input specific conditions, and LangChain can help design or propose trading strategies by interpreting those conditions and backtesting them using historical data.
 Example: A user might describe a strategy like “buy when RSI is below 30 and sell when RSI is above 70,” and LangChain could convert this into executable code.
 
+![Strategy_Execution](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/df271df50aaf8401b101ede08858a3b4920704e5/Building%20a%20trading%20AI%20bot/Strategy_Execution.jpg)
+
 ##### 3. Risk Management
 - LangChain models can be used to set and adjust stop-loss, take-profit levels, and position sizing dynamically, based on real-time data and risk analysis.
 It can also monitor portfolio exposure and recommend rebalancing actions to minimize risk.
