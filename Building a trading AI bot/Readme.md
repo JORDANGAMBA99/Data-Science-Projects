@@ -29,6 +29,7 @@ It can also monitor portfolio exposure and recommend rebalancing actions to mini
 
 #### Trade execution
 - Our bot will be able to automatically inteprete news from our desired data source and execute buy or sell orders.
+- We used the [mt5plaform](https://www.mql5.com/en/docs/python_metatrader5)
 
 
 
