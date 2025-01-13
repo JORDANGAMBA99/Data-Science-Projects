@@ -5,6 +5,9 @@
 I broke down this project into 3 stages:
 #### Data collection and Analysis
 - Here I used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs.This may not be ideal because the more reliable sources ar Bloomberg and Forbes.However,both of these services are paid subscription which in order to access their API you need to pay
+- We collected our training data from the following websites:
+1. [Investing.com](https://www.investing.com/)
+2. [Forex Factory](https://www.forexfactory.com/)
 
 #### Risk Management
 - I created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. I have places a stop loss of 10 pips and trading profit of 20 pips in our bot
