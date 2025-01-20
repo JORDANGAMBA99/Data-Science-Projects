@@ -46,6 +46,3 @@ It can also monitor portfolio exposure and recommend rebalancing actions to mini
 - We used the [mt5plaform](https://www.mql5.com/en/docs/python_metatrader5) inorder to get the python code to execute trades automatically from the metatrader5 trading platform.
 
 ![Trade Execution](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/afe9174b71da863798cf95f224c33c9ae751fbd7/Building%20a%20trading%20AI%20bot/Trade%20executed.jpg)
-
-
-
