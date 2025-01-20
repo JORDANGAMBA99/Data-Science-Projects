@@ -3,8 +3,8 @@
 - In this project I wanted to create an AI trading bot that is ssensitive to real time events and news and allo us to interpret news events for us to make buy or sell orders in our tarades
 
 I broke down this project into stages:
-#### Data collection and Analysis
-- Here I used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs.This may not be ideal because the more reliable sources ar Bloomberg and Forbes.However,both of these services are paid subscription which in order to access their API you need to pay
+#### (i) Data collection and Analysis
+- I used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs.This may not be ideal because the more reliable sources ar Bloomberg and Forbes.However,both of these services are paid subscription which in order to access their API you need to pay
 - We collected our training data from the following websites:
 1. [Investing.com](https://www.investing.com/)
    
@@ -18,7 +18,7 @@ I broke down this project into stages:
 
 ### Select the articles highlighted in yellow in the websites and copy paste them to the LLM Model
 
-#### LLM MODEL
+#### (ii) LLM MODEL
 - I created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. We used Langchain agent to perfrom the following:
 
 ##### 1. Automated Trading Signals
@@ -41,8 +41,11 @@ It can also monitor portfolio exposure and recommend rebalancing actions to mini
 
 [langchain_code](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/1d2422d4df0cdca282d4c39e7077b3f29a11307a/Building%20a%20trading%20AI%20bot/langchain%20beta%20-%20Copy%20for%20github.ipynb)
 
+
 #### Trade execution
 - We used the [mt5plaform](https://www.mql5.com/en/docs/python_metatrader5) inorder to get the python code to execute trades automatically from the metatrader5 trading platform.
+
+![Trade Execution](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/afe9174b71da863798cf95f224c33c9ae751fbd7/Building%20a%20trading%20AI%20bot/Trade%20executed.jpg)
 
 
 
