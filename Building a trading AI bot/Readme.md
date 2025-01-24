@@ -27,23 +27,15 @@ d)   Ask
 ### Select the articles highlighted in yellow in the websites and copy paste them to the LLM Model
 
 #### (ii) LLM MODEL
-- We created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. We used Langchain to interact with the LLM Model inorder to get feedback
+- We used Langchain to interact with the LLM Model inorder to get feedback.It forms a pipeline to the LLM Model that helps us retrive feedback from the LLM MOdel
 
-##### 1. Automated Trading Signals
-Langchain chains multiple steps (like pre-processing data, generating trading signals, and sending them to a broker API), it forms a pipeline that reacts to changes in the market.
-
-##### 2.Strategy Generation
-- Traders can input specific conditions, and LangChain can help design or propose trading strategies by interpreting those conditions and backtesting them using historical data.
+- Traders can input specific conditions, and LangChain can help design or propose trading strategies by interpreting those conditions.
 Example: A user might describe a strategy like “buy when RSI is below 30 and sell when RSI is above 70,” and LangChain could convert this into executable code.
 
 ![Strategy_Execution](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/df271df50aaf8401b101ede08858a3b4920704e5/Building%20a%20trading%20AI%20bot/Strategy_Execution.jpg)
 
-##### 3. Risk Management
-- LangChain models can be used to set and adjust stop-loss, take-profit levels, and position sizing dynamically, based on real-time data and risk analysis.
-It can also monitor portfolio exposure and recommend rebalancing actions to minimize risk.
-
 ##### 4 . Natural Language Queries
-- Users can ask questions like, "What is the impact of inflation on tech stocks?" or "Which sectors are showing bullish momentum?" and the LangChain model can provide relevant insights by analyzing historical data, news, or predefined metrics.
+- Users can ask questions like, "What is the impact of inflation on tech stocks?" or "Which sectors are showing bullish momentum?" and the LangChain model can provide specific price points of when to buy and sell by analyzing historical data, news, or predefined metrics.
 ![System_prompt](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/b1a4dc13c445eea8c9490cd40fea7ab43407ba45/Building%20a%20trading%20AI%20bot/System%20prompt.jpg)
 
 [langchain_code](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/1d2422d4df0cdca282d4c39e7077b3f29a11307a/Building%20a%20trading%20AI%20bot/langchain%20beta%20-%20Copy%20for%20github.ipynb)
