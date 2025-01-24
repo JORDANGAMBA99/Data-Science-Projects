@@ -5,7 +5,8 @@
 Here is a break down of this project into stages:
 #### (i) Data collection and Analysis
 - We used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs.
-- We collected our training data from the following websites:
+
+We collected our training data from the following websites:
 1. [Investing.com](https://www.investing.com/)
    
 ![Investing.com_Screenshot](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/3039c4cdf00f3ac25676b78c8eadb312718fce9d/Building%20a%20trading%20AI%20bot/Forex%20Screenshot.jpg)
