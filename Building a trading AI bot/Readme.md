@@ -36,6 +36,7 @@ Example: A user might describe a strategy like “buy when RSI is below 30 and s
 
 ##### 4 . Natural Language Queries
 - Users can ask questions like, "What is the impact of inflation on tech stocks?" or "Which sectors are showing bullish momentum?" and the LangChain model can provide specific price points of when to buy and sell by analyzing historical data, news, or predefined metrics.
+
 ![System_prompt](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/b1a4dc13c445eea8c9490cd40fea7ab43407ba45/Building%20a%20trading%20AI%20bot/System%20prompt.jpg)
 
 [langchain_code](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/1d2422d4df0cdca282d4c39e7077b3f29a11307a/Building%20a%20trading%20AI%20bot/langchain%20beta%20-%20Copy%20for%20github.ipynb)
