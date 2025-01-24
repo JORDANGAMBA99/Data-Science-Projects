@@ -1,6 +1,6 @@
 ## AI Trading bot
 ### Purpose
-- In this project I wanted to create an AI trading bot that is ssensitive to real time events and news and allo us to interpret news events for us to make buy or sell orders in our tarades
+- In this project the main objective was to create an AI trading bot that is sensitive to real time events and news and allow us to interpret news events for us to make buy or sell orders in our trades
 
 I broke down this project into stages:
 #### (i) Data collection and Analysis
