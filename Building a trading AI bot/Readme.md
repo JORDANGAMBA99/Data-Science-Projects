@@ -2,9 +2,9 @@
 ### Purpose
 - In this project the main objective was to create an AI trading bot that is sensitive to real time events and news and allow us to interpret news events for us to make buy or sell orders in our trades
 
-I broke down this project into stages:
+Here is a break down of this project into stages:
 #### (i) Data collection and Analysis
-- I used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs.This may not be ideal because the more reliable sources ar Bloomberg and Forbes.However,both of these services are paid subscription which in order to access their API you need to pay
+- We used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs.This may not be ideal because the more reliable sources ar Bloomberg and Forbes.However,both of these services are paid subscription which in order to access their API you need to pay
 - We collected our training data from the following websites:
 1. [Investing.com](https://www.investing.com/)
    
