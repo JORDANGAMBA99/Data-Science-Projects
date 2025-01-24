@@ -5,10 +5,14 @@
 Here is a break down of this project into stages:
 #### (i) Data collection and Analysis
 - We used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs. These data includes:
-i)    Support refers to a price level at which a financial asset tends to stop falling and bounce back up due to increased buying interest. 
-ii)   Resistance It refers to a price level where a financial asset tends to face selling pressure, preventing it from rising further
-iii)  Bid -
-iv)   Ask
+  
+a)    Support refers to a price level at which a financial asset tends to stop falling and bounce back up due to increased buying interest.
+
+b)   Resistance It refers to a price level where a financial asset tends to face selling pressure, preventing it from rising further
+
+c)  Bid -
+
+d)   Ask
   
 1. [Investing.com](https://www.investing.com/)
    
@@ -23,11 +27,10 @@ iv)   Ask
 ### Select the articles highlighted in yellow in the websites and copy paste them to the LLM Model
 
 #### (ii) LLM MODEL
-- We created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. We used Langchain agent to perfrom the following:
+- We created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. We used Langchain to interact with the LLM Model inorder to get feedback
 
 ##### 1. Automated Trading Signals
-- LangChain can integrate with real-time market data feeds, parse complex data patterns, and generate actionable insights such as buy/sell signals.
-By chaining multiple steps (like pre-processing data, generating trading signals, and sending them to a broker API), it forms a pipeline that reacts to changes in the market.
+Langchain chains multiple steps (like pre-processing data, generating trading signals, and sending them to a broker API), it forms a pipeline that reacts to changes in the market.
 
 ##### 2.Strategy Generation
 - Traders can input specific conditions, and LangChain can help design or propose trading strategies by interpreting those conditions and backtesting them using historical data.
