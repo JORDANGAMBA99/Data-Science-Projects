@@ -1,10 +1,14 @@
 ## AI Trading bot
 ### Purpose
-- In this project the main objective was to create an AI trading bot that is sensitive to real time events and news and allow us to interpret news events for us to make buy or sell orders in our trades
+- In this project the main objective was to create an AI trading bot that is sensitive to real time events and news and allow us to interpret news events for us to make buy or sell orders in our trades.The purpose of this project is to give direction to the AI model on the best entry point for a trader in terms of selling and buying currency pairs
 
 Here is a break down of this project into stages:
 #### (i) Data collection and Analysis
-- We used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs.
+- We used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs. These data includes:
+i)    Support refers to a price level at which a financial asset tends to stop falling and bounce back up due to increased buying interest. 
+ii)   Resistance It refers to a price level where a financial asset tends to face selling pressure, preventing it from rising further
+iii)  Bid -
+iv)   Ask
   
 1. [Investing.com](https://www.investing.com/)
    
@@ -19,7 +23,7 @@ Here is a break down of this project into stages:
 ### Select the articles highlighted in yellow in the websites and copy paste them to the LLM Model
 
 #### (ii) LLM MODEL
-- I created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. We used Langchain agent to perfrom the following:
+- We created a logic part of the bot such that it executes our buy or sell orders depending on the users risk appetite. We used Langchain agent to perfrom the following:
 
 ##### 1. Automated Trading Signals
 - LangChain can integrate with real-time market data feeds, parse complex data patterns, and generate actionable insights such as buy/sell signals.
