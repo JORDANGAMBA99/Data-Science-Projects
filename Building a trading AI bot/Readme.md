@@ -4,15 +4,15 @@
 
 Here is a break down of this project into stages:
 #### (i) Data collection and Analysis
-- We used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs. These data includes:
+We used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs. These data includes:
   
-a)    Support refers to a price level at which a financial asset tends to stop falling and bounce back up due to increased buying interest.
+a)  Support it refers to a price level at which a financial asset tends to stop falling and bounce back up due to increased buying interest.
 
-b)   Resistance It refers to a price level where a financial asset tends to face selling pressure, preventing it from rising further
+b)  Resistance It refers to a price level where a financial asset tends to face selling pressure, preventing it from rising further
 
-c)  Bid -
+c)  Bid  it is the highest price a buyer is willing to pay for an asset
 
-d)   Ask
+d)  Ask it is the lowest price a seller is willing to accept for an asset
   
 1. [Investing.com](https://www.investing.com/)
    
@@ -35,6 +35,7 @@ Example: A user might describe a strategy like “buy when RSI is below 30 and s
 ![Strategy_Execution](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/df271df50aaf8401b101ede08858a3b4920704e5/Building%20a%20trading%20AI%20bot/Strategy_Execution.jpg)
 
 ##### 4 . Natural Language Queries
+- It refer to using everyday, human language to ask questions or retrieve information from a database, search engine, or system, without requiring complex programming or query syntax.
 - Users can ask questions like, "What is the impact of inflation on tech stocks?" or "Which sectors are showing bullish momentum?" and the LangChain model can provide specific price points of when to buy and sell by analyzing historical data, news, or predefined metrics.
 
 ![System_prompt](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/b1a4dc13c445eea8c9490cd40fea7ab43407ba45/Building%20a%20trading%20AI%20bot/System%20prompt.jpg)
