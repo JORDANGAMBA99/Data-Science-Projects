@@ -27,16 +27,19 @@ d)  Ask it is the lowest price a seller is willing to accept for an asset
 ### Select the articles highlighted in yellow in the websites and copy paste them to the LLM Model
 
 #### (ii) LLM MODEL
-- We used Langchain to interact with the LLM Model inorder to get feedback.It forms a pipeline to the LLM Model that helps us retrive feedback from the LLM MOdel
+- It is a type of machine learning model designed to understand and generate human-like text.These models are trained on vast amounts of text data, enabling them to perform a wide range of natural language processing (NLP) tasks.
+- We used Langchain to interact with the LLM Model inorder to get feedback.It provides a pipeline to the LLM Model that helps us retrive feedback from the LLM Model
 
-- Traders can input specific conditions, and LangChain can help design or propose trading strategies by interpreting those conditions.
-Example: A user might describe a strategy like “buy when RSI is below 30 and sell when RSI is above 70,” and LangChain could convert this into executable code.
 
 ![Strategy_Execution](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/df271df50aaf8401b101ede08858a3b4920704e5/Building%20a%20trading%20AI%20bot/Strategy_Execution.jpg)
 
 ##### 4 . Natural Language Queries
-- It refer to using everyday, human language to ask questions or retrieve information from a database, search engine, or system, without requiring complex programming or query syntax.
-- Users can ask questions like, "What is the impact of inflation on tech stocks?" or "Which sectors are showing bullish momentum?" and the LangChain model can provide specific price points of when to buy and sell by analyzing historical data, news, or predefined metrics.
+- It refer to using everyday, human language to ask questions or retrieve information from a database, search engine, or system, without requiring complex programming or query syntax. The Langchain framework converts the data we have into a numerical represenation in a vector form through a proocess called embedding. The LLM Model performs a similarity search with the numerical representation and it is able to retrieve our answer.
+  
+- Users can ask questions like, "What is the impact of inflation on tech stocks?" or "Which sectors are showing bullish momentum?". These type of texts are embedded and set to the LLM model which performs a similarity search where similar texts that have the same vector representation and then retrieved back as an output.
+
+##### Trading bot Flowchart
+![Trading_bot_Flowchart](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/2aa59608b1a83a752c53eee9d9ad9ec45e82f6d0/Building%20a%20trading%20AI%20bot/Trading%20bot%20flow%20chart.jpg)
 
 ![System_prompt](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/b1a4dc13c445eea8c9490cd40fea7ab43407ba45/Building%20a%20trading%20AI%20bot/System%20prompt.jpg)
 
@@ -50,5 +53,5 @@ Example: A user might describe a strategy like “buy when RSI is below 30 and s
 
 
 ##### Challenges
-- Reliable source such as Bloomberga and Forbes are paid subscription that require payment
-- 
+- Reliable sources such as Bloomberg and Forbes are paid subscription that require payment.
+- The bot is hampered with the information that is provided in that very instance. Therefore it is hampered and provides advise based on the current information provided.If the data is not retrieved it can be problematic as it will not provide the most accurate assessment of the currency pair you want analyzed.
