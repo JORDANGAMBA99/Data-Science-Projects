@@ -1,8 +1,7 @@
 ## AI Trading bot
 ### Purpose
-In this project the main objective was to create an AI trading bot that is sensitive to real time events and news and allow us to interpret news events for us to make buy or sell orders in our trades.The purpose of this project is to give direction to the AI model on the best entry point for a trader in terms of selling and buying currency pairs
+In this project the main objective was to create an AI trading bot that is sensitive to real time events and news and allow us to interpret news events for us to make buy or sell orders in our trades.The purpose of this project is to get direction from the AI model on the best entry point for a trader in terms of selling and buying currency pairs and then execute it on the metatrader platform
 
-Here is a break down of this project into stages:
 #### (i) Data collection and Analysis
 We used langchain to load data from our web pages such as Forex Factory in order to collect data that may affect our currency pairs. These data includes:
   
@@ -33,13 +32,10 @@ d)  Ask it is the lowest price a seller is willing to accept for an asset
 
 ![Strategy_Execution](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/df271df50aaf8401b101ede08858a3b4920704e5/Building%20a%20trading%20AI%20bot/Strategy_Execution.jpg)
 
-##### 4 . Natural Language Queries
+##### Natural Language Queries
 - It refer to using everyday, human language to ask questions or retrieve information from a database, search engine, or system, without requiring complex programming or query syntax. The Langchain framework converts the data we have into a numerical represenation in a vector form through a proocess called embedding. The LLM Model performs a similarity search with the numerical representation and it is able to retrieve our answer.
   
 - Users can ask questions like, "What is the impact of inflation on tech stocks?" or "Which sectors are showing bullish momentum?". These type of texts are embedded and set to the LLM model which performs a similarity search where similar texts that have the same vector representation and then retrieved back as an output.
-
-##### Trading bot Flowchart
-![Trading_bot_Flowchart](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/2aa59608b1a83a752c53eee9d9ad9ec45e82f6d0/Building%20a%20trading%20AI%20bot/Trading%20bot%20flow%20chart.jpg)
 
 ![System_prompt](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/b1a4dc13c445eea8c9490cd40fea7ab43407ba45/Building%20a%20trading%20AI%20bot/System%20prompt.jpg)
 
@@ -47,9 +43,12 @@ d)  Ask it is the lowest price a seller is willing to accept for an asset
 
 
 #### Trade execution
-- We used the [mt5plaform](https://www.mql5.com/en/docs/python_metatrader5) inorder to get the python code to execute trades automatically from the metatrader5 trading platform.
+- We used the output derived from the queries inorder to execute trades automatically from the metatrader5 trading platform.
 
 ![Trade Execution](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/afe9174b71da863798cf95f224c33c9ae751fbd7/Building%20a%20trading%20AI%20bot/Trade%20executed.jpg)
+
+##### Trading bot Flowchart
+![Trading_bot_Flowchart](https://github.com/JORDANGAMBA99/Data-Science-Projects/blob/2aa59608b1a83a752c53eee9d9ad9ec45e82f6d0/Building%20a%20trading%20AI%20bot/Trading%20bot%20flow%20chart.jpg)
 
 
 ##### Challenges
