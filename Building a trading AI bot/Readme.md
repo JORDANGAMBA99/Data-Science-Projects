@@ -53,4 +53,4 @@ d)  Ask it is the lowest price a seller is willing to accept for an asset
 
 ##### Challenges
 - Reliable sources such as Bloomberg and Forbes are paid subscription that require payment.
-- The bot is hampered with the information that is provided in that very instance. Therefore it is hampered and provides advise based on the current information provided.If the data is not retrieved it can be problematic as it will not provide the most accurate assessment of the currency pair you want analyzed.
+- The bot is hampered with the information that is provided in that very instance. Therefore it provides advise based on the current information provided.If the data is not retrieved on a frequent basis it can be problematic as it will not provide the most accurate assessment of the currency pair you want analyzed.
